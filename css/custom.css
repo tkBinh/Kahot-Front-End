@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100%;
+    max-width: 1366px;
+}
+
+.navbar {
+    padding: 5px 5%;
+}
+
+.button-right {
+    float: right;
+}
+
+.button-right span {
+    color: white;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+.home-page {
+    text-align: center;
+}
+
+.menu {
+    float: left;
+}
+
+.menu a {
+    color: white;
+    float: left;
+}
+
+.quizz {
+    display: inline-table;
+    margin: 10px 0;
+    width: 20%;
+    min-height: 220px;
+    word-wrap: break-word;
+    margin: 1% 25px;
+    border-radius: 5px;
+}
+
+.my-quizz {
+    display: inline-table;
+    margin: 10px 0;
+    width: 20%;
+    min-height: 250px;
+    word-wrap: break-word;
+    margin: 1% 25px;
+    border-radius: 5px;
+}
+
+.quiz-title {
+    min-height: 80px;
+}
+
+.my-quiz-title {
+    min-height: 70px;
+}
+
+.private-quiz {
+    color: darkred;
+}
+
+.public-quiz {
+    color: darkgreen;
+}
+
+.jumbotron {
+    display: block;
+    width: 90%; 
+    margin: 0 5%;
+}
+
+.container {
+    background-color: white;
+}
+
+.bg-play {
+    background-color: darkgreen;
+}
+
+.navbar-background {
+    background-color: darkseagreen;
+    color: white;
+    font-weight: bold;
+}
+
+.show-pin {
+    background-color: gray;
+    height: 100px;
+    margin: 0 5%;
+    border-radius: 5px;
+}
+
+.game-pin {
+    margin-left: 30%;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+.room-jumbo {
+    margin-top: 1%;
+    min-height: 520px;
+}
+
+.num-player {
+    color: blueviolet;
+    font-size: 35px;
+    display: block; 
+    margin-bottom: 2%;
+}
+

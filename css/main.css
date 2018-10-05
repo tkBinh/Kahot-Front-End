@@ -1,0 +1,17 @@
+.navbar-brand {
+    font-size: 1rem;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+.no-gutters {
+    margin: 2% 30%;
+    width: 500px;
+}
+
+.sign-out {
+    color: red;
+}
