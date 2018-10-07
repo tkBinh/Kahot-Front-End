@@ -1,0 +1,48 @@
+
+
+- Laucher icon size : 30
+
+- Scale for menu... : 0.75
+
+- Terminal font: Inconsolata
+
+- - Menu to Bottom : gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+
+- - Java: 
+	+ sudo apt-get update && sudo apt-get upgrade
+	+ sudo apt-get install software-properties-common
+	+ sudo add-apt-repository ppa:webupd8team/java
+	+ sudo apt-get update
+	+ sudo apt-get install oracle-java8-installer
+	+ java -version
+	+ javac -version 
+	+ sudo add-apt-repository -r ppa:webupd8team/java
+	+ echo "JAVA_HOME=$(which java)" | sudo tee -a /etc/environment
+	+ source /etc/environment
+	+ echo $JAVA_HOME
+- - Git:
+	+ sudo apt-get install git
+	+ git config --global color.ui true
+	+ git config --global user.name "thank Binh"
+	+ git config --global user.email "binh13it@gmail.com"
+- - Skype: 
+	+ https://www.skype.com/en/get-skype/
+- - MySql:
+	+ cd /tmp
+	+ sudo apt install curl
+	+ curl -OL https://dev.mysql.com/get/mysql-apt-config_0.8.3-1_all.deb
+	+ ls
+	+ sudo dpkg -i mysql-apt-config*
+	+ sudo apt-get update
+	+ rm mysql-apt-config*
+	+ sudo apt-get install mysql-server
+	+ systemctl status mysql
+	+ mysqladmin -u root -p version
+- - Font Manager 
+	+ sudo add-apt-repository ppa:font-manager/staging
+	+ sudo apt-get update
+	+ sudo apt-get install font-manager
+- - MySql WorkBench
+	+ sudo apt update && sudo apt upgrade
+	+ sudo apt install mysql-workbench
+	+ mysql-workbench
