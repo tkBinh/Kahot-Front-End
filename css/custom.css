@@ -92,6 +92,8 @@ body {
 }
 
 .navbar-background {
+    margin: 0 5%;
+    border-radius: 5px;
     background-color: darkseagreen;
     color: white;
     font-weight: bold;
@@ -105,14 +107,12 @@ body {
 }
 
 .game-pin {
-    margin-left: 30%;
     font-weight: bold;
     font-size: 35px;
     color: white;
 }
 
 .room-jumbo {
-    margin-top: 1%;
     min-height: 520px;
     border-radius: 5px;
 }
@@ -124,23 +124,134 @@ body {
     margin-bottom: 2%;
 }
 
-.loader {
-  border: 6px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 6px solid black;
-  width: 40px;
-  height: 40px;
-  -webkit-animation: spin 2s linear infinite; /* Safari */
-  animation: spin 2s linear infinite;
+.lds-roller {
+    display: inline;
+    position: relative;
+    width: 64px;
+    height: 64px;
 }
 
-/* Safari */
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 32px 32px;
 }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.lds-roller div:after {
+    content: " ";
+    display: inline;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background:white;
+    margin: -3px 0 0 -3px;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+    top: 50px;
+    left: 50px;
+}
+
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+    top: 54px;
+    left: 45px;
+}
+
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+    top: 57px;
+    left: 39px;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+    top: 58px;
+    left: 32px;
+}
+
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+    top: 57px;
+    left: 25px;
+}
+
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+    top: 54px;
+    left: 19px;
+}
+
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+    top: 50px;
+    left: 14px;
+}
+
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+    top: 45px;
+    left: 10px;
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.prepare-question-set {
+    color: white;
+    margin-top: 1%;
+}
+
+.prepare-question-set h3 {
+    margin-top: 2%;
+}
+
+.prepare-question-set h4 {
+    color: yellow;
+    margin-top: 5%;
+}
+
+.prepare-question-set p {
+    font-size: 30px;
+    color: white;
+}
+
+.show-answer h3 {
+    color: white;
+}
+
+.show-answer h1 {
+    color: white;
 }
