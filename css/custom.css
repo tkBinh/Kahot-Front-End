@@ -255,3 +255,87 @@ body {
 .show-answer h1 {
     color: white;
 }
+
+.jumbo-show-answer {
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+.jumbo-show-answer button {
+    margin: 0;
+}
+
+.answer {
+    border-radius: 5px;
+    margin: 1%;
+    background-color: black;
+    min-height: 111px;
+    color: white;
+    word-wrap: break-word;
+    margin-left: 60px;
+}
+
+.answer p {
+    min-height: 0px;
+}
+
+.answer span {
+    font-weight: bold;
+}
+
+.answer-a {
+    background-color: darkred;
+}
+
+.answer-b {
+    background-color: darkblue;
+}
+
+.answer-c {
+    background-color: darkgoldenrod;
+}
+
+.answer-d {
+    background-color: darkgreen;
+}
+
+.result-answer {
+    display: inline;
+    margin-right: 5%;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.a-answer {
+    color: darkred;
+}
+
+.b-answer {
+    color: darkblue;
+}
+
+.c-answer {
+    color: darkgoldenrod;
+}
+
+.d-answer {
+    color: darkgreen;
+}
+
+.user-answer {
+    color:white;
+}
+
+.user-answer .navbar-brand {
+    display: inline-flex;
+}
+
+#row-answer {
+    height: 315px;
+    margin-left: 1%;
+}
+
+#row-answer span {
+    font-size: 50px;
+}

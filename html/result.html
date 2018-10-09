@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Prepare Question | Ká Hột</title>
+    <title>Result | Ká Hột</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -20,39 +20,40 @@
     <link rel="icon" type="image/gif" href="../images/Mister-Fantastic.ico" />
     <link rel="stylesheet" type="text/css" href="../css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
-    <script src="../js/prepare-game.js"></script>
 </head>
 
 <body>
     <nav class="navbar bg-dark show-answer">
-        <div>
-            <h1 id="countdowntimer120">120</h1>
-        </div>
-        <div>
-            <h1>Answers: 998</h1>
+        <div class="mx-auto">
+            <h3>Program Bug là gì ?</h3>
         </div>
     </nav>
     <div class="jumbotron text-center jumbo-show-answer">
-        <h3>Program Bug là gì ?</h3>
-        <a href="result.html"><button class="btn btn-lg btn-danger" style="float:right">Skip</button></a>
+        <div class="result-answer a-answer"><i class="fas fa-check"></i>A - 999</div>
+        <div class="result-answer b-answer">B - 999</div>
+        <div class="result-answer c-answer">C - 999</div>
+        <div class="result-answer d-answer">D - 999</div><br />
+        <a href="result.html"><button class="btn btn-lg btn-success" style="float:right;">Next</button></a>
     </div>
     <div class="jumbotron jumbo-show-answer">
         <div class="from-group">
             <form>
                 <div class="row">
                     <div class="col-md-5 answer answer-a">
-                        <span>A. </span><p>Chương trình thực hiện không giống như spec, user requirement.</p>
+                        <span>A. </span>Chương trình thực hiện không giống như spec, user requirement.
+                        <i class="fas fa-check" style="float:right; line-height: 100%; font-size: 40px;"></i>
                     </div>
                     <div class="col-md-5 answer answer-b">
-                        <span>B. </span><p>Chương trình thực hiện không hợp lý với quan điểm user</p>
+                        <span>B. </span>Chương trình thực hiện không hợp lý với quan điểm user
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-5 answer answer-c">
-                        <span>C. </span><p>Chương trình thực hiện đúng như spec nhưng không giống test case</p>
+                        <span>C. </span>Chương trình thực hiện đúng như spec nhưng không giống test case
                     </div>
                     <div class="col-md-5 answer answer-d">
-                        <span>D. </span><p>Chương trình thực hiện không giống như Design và test case nhưng theo quan điểm của DEV thì là hợp ný.
+                        <span>D. </span>Chương trình thực hiện không giống như Design và test case nhưng theo quan điểm
+                        của DEV thì là hợp ný.
                     </div>
                 </div>
             </form>
