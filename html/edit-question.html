@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Create Question | Ká Hột</title>
+    <title>Edit Answer | Ká Hột</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -26,21 +26,24 @@
     <nav class="navbar bg-dark">
         <a href="home-page.html"><img src="../images/logo_kahot.png" alt="Error Logo !" /></a>
         <div class="button-right">
-            <a href="create-question.html"><button class="btn btn-info btn-sm">Create More...</button></a>
-            <a href="my-quiz.html"><button class="btn btn-success btn-sm">Done</button></a>
+            <a href="show-question.html"><button class="btn btn-success btn-sm">Done</button></a>
         </div>
     </nav>
     <div class="jumbotron room-jumbo">
         <div>
-            <h1 class="text-center"><i class="fas fa-folder"></i> Create Question</h1>
+            <h1 class="text-center"><i class="fas fa-folder"></i> Edit Question</h1>
         </div>
         <div class="container">
-            <p><b>My Quizz 111111 11111 111111111 222222222 33333333333333</b></p>
-            <p class="public-quiz"><i class="fas fa-globe-asia"></i> Public</p>
-            <p><b>20</b> Question</p>
-        </div>
-        <div>
-            <h2 class="text-center"><i class="far fa-question-circle"></i> Question 1</h2>
+                <a href="edit-quiz.html"><button class="btn btn-info btn-sm"><i class="far fa-edit"></i></button></a>
+                <p  class="edit-ques-btn-edit-title"><b>My Quizz 111111 11111 111111111 222222222 33333333333333</b></p>
+                <p class="public-quiz"><i class="fas fa-globe-asia"></i> Public</p>
+                <p><b>20</b> Question</p>
+            </div>
+        <div class="container">
+            <p class="edit-ques-title"><b>Question 1 - </b>What is your name ?</p>
+            <div class="edit-ques-right-button"><a href="edit-question.html"><button class="btn btn-sm btn-info"><i
+                            class="far fa-edit"></i> Edit
+                    </button></a><button class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i> Delete</button></div>
         </div>
         <div class="from-group">
             <br />
@@ -81,7 +84,7 @@
             <br />
         </div>
     </div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
 </body>
 
 </html>

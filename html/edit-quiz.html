@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Edit Profile | Ká hột</title>
+    <title>Edit Quiz Title | Ká Hột</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -23,31 +23,36 @@
 
 <body>
     <nav class="navbar bg-dark">
-        <a href="homepage.html"><img src="../images/logo_kahot.png" alt="Error Logo !" /></a>
-        <div class="menu">
-            <button class="btn btn-outline-light"><i class="far fa-folder-open"></i> Public Quizz</button>
-            <button class="btn btn-outline-light"><i class="far fa-file"></i> My Quizz</button>
-            <button class="btn btn-outline-light"><i class="fas fa-chart-bar"></i> Reports</button>
-        </div>
+        <a href="home-page.html"><img src="../images/logo_kahot.png" alt="Error Logo !" /></a>
         <div class="button-right">
-            <a href="create-quizz.html"><button class="btn btn-success btn-sm"><i class="fas fa-folder-plus"></i> Make
-                    Quizz</button></a>
-            <!-- <a href="account-page.html"><button class="btn btn-info btn-sm"><i class="fas fa-user-cog"></i> Account</button></a> -->
-            <div class="btn-group">
-                <button type="button" class="btn btn-info btn-sm dropdown-toggle " data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    <i class="fas fa-user-cog"></i> Account
-                </button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="edit-profile-page.html">Edit Profile</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item sign-out" href="homepage.html"><i class="fas fa-sign-out-alt"></i> Log out</a>
-                </div>
-            </div>
+            <a href="show-question.html"><button class="btn btn-success btn-sm"><b>Save & Next</b></button></a>
         </div>
     </nav>
-    <div>
-        <h2>Edit User Informations</h2>
+    <div class="jumbotron room-jumbo">
+        <div>
+            <h1 class="text-center"><i class="fas fa-folder"></i> Edit Quiz Title</h1>
+        </div>
+        <div class="from-group">
+            <br />
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <label>Title <small style="color: grey">(required)</small></label>
+                        <input type="text" class="form-control" placeholder="Quiz Title...">
+                    </div>
+                    <div class="col">
+                        <label>Visible to <i class="far fa-question-circle"></i></label><br />
+                        <select class="form-control-sm">
+                            <option selected>Public</option>
+                            <option>Only me</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <br/>
+            <label>Description <small style="color: grey">(required)</small></label>
+            <textarea class="form-control" rows="3" placeholder="Some information of Quiz"></textarea>
+        </div>
     </div>
 </body>
 

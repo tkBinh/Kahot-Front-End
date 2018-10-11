@@ -44,7 +44,7 @@ body {
     display: inline-table;
     margin: 10px 0;
     width: 20%;
-    min-height: 220px;
+    min-height: 250px;
     word-wrap: break-word;
     margin: 1% 25px;
     border-radius: 5px;
@@ -85,9 +85,10 @@ body {
 .container {
     background-color: white;
     border-radius: 5px;
+    margin-bottom: 1%;
 }
 
-.bg-play {
+.darkgreen-bg {
     background-color: darkgreen;
 }
 
@@ -338,4 +339,19 @@ body {
 
 #row-answer span {
     font-size: 50px;
+}
+
+.edit-ques-right-button {
+    float: right;
+    margin-top: 1%;
+}
+
+.edit-ques-title {
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.edit-ques-btn-edit-title {
+    display: inline-block;
+    margin-top: 1%;
 }
